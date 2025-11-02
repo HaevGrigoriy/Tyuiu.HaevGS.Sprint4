@@ -6,7 +6,7 @@ namespace Tyuiu.HaevGS.Sprint4.Task1.V8.Lib
         public int Calculate(int[] array)
         {
             int count = 0;
-            for (int i = 0; i < array.Length - 1; i++)
+            for (int i = 0; i < array.Length + 1; i++)
             {
                 if (array[i] > 0)
                 {

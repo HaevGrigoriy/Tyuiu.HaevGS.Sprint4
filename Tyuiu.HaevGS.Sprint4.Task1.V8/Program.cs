@@ -7,7 +7,7 @@ len = Convert.ToInt32(Console.ReadLine());
 
 int[] num = new int[len];
 
-for (int i = 0; i < len-1; i++)
+for (int i = 0; i < len; i++)
 {
     num[i] = Convert.ToInt32(Console.ReadLine());
 }
