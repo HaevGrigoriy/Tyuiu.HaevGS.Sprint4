@@ -8,7 +8,7 @@ namespace Tyuiu.HaevGS.Sprint4.Task1.V8.Lib
             int count = 0;
             for (int i = 0; i < array.Length; i++)
             {
-                if (array[i+1] > 0)
+                if (array[i] > 0)
                 {
                     count =+ array[i];
                 }
