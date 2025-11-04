@@ -18,6 +18,7 @@ namespace Tyuiu.HaevGS.Sprint4.Task3.V6.Lib
                     if(array[1, 0] > array[1, 1])
                     {
                         count += array[1,0];
+                        break;
                     }
                 }
             }
