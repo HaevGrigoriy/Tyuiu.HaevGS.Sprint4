@@ -24,5 +24,6 @@ for (int i = 0; i < res; i++)
     Console.WriteLine();
 }
 
-int res = ds.Calculate(array);
+
+Console.WriteLine(ds.Calculate(array));
 Console.ReadKey();

@@ -15,9 +15,9 @@ namespace Tyuiu.HaevGS.Sprint4.Task3.V6.Lib
             {
                 for(int j = 0; j < colums; j++)
                 {
-                    if(array[1, i] > count)
+                    if(array[1, j] > count)
                     {
-                        count = array[1, i];
+                        count = array[1, j];
                     }
                 }
             }
