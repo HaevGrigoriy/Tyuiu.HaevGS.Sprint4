@@ -6,7 +6,7 @@ namespace Tyuiu.HaevGS.Sprint4.Task4.V2.Lib
     {
         public int[,] Calculate(int[,] matrix)
         {
-            int com = matrix.GetLength(0) + 1;
+            int com = matrix.GetUpperBound(0) + 1;
             int st = matrix.Length / com;
 
 
