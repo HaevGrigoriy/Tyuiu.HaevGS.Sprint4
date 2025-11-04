@@ -9,7 +9,6 @@ namespace Tyuiu.HaevGS.Sprint4.Task4.V2.Lib
             int com = matrix.GetLength(0) + 1;
             int st = matrix.Length / com;
 
-            int count = 0;
 
             for(int i = 0; i < com; i++)
             {
@@ -17,7 +16,7 @@ namespace Tyuiu.HaevGS.Sprint4.Task4.V2.Lib
                 {
                     if (matrix[i, j] % 2 != 0)
                     {
-                        matrix[i, j] = matrix[0, 0];
+                        matrix[i, j] = 0;
 
                     }
                 }
