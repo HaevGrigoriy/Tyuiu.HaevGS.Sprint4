@@ -14,11 +14,8 @@ namespace Tyuiu.HaevGS.Sprint4.Task4.V2.Lib
             {
                 for(int j = 0; j < st; j++)
                 {
-                    if (matrix[i, j] % 2 != 0)
-                    {
-                        matrix[i, j] = 0;
-
-                    }
+                    if (matrix[i, j] % 2 != 0) matrix[i, j] = 0;
+                    
                 }
             }
             return matrix;
