@@ -8,6 +8,7 @@ namespace Tyuiu.HaevGS.Sprint4.Task7.V1.Lib
         {
             int[,] matrix = new int[n, m];
             int count = 0;
+
             for (int i = 0; i < 3; i++)
             {
                 for (int j = 0; j < 3; j++)
@@ -20,7 +21,7 @@ namespace Tyuiu.HaevGS.Sprint4.Task7.V1.Lib
             {
                 for (int j = 0;j < m; j++)
                 {
-                    if (n % 2 == 0) count++;
+                    if (matrix[i, j] % 2 == 0) count++;
                 }
             }
             return count;
