@@ -13,7 +13,14 @@ namespace Tyuiu.HaevGS.Sprint4.Task7.V1.Lib
                 for (int j = 0; j < 3; j++)
                 {
                     matrix[n, m] = int.Parse(value[n * 3 + m].ToString());
-                    if (n % 2 == 0) count += 1;
+                
+                }
+            }
+            for (int i = 0;i < n; i++)
+            {
+                for (int j = 0;j < m; j++)
+                {
+                    if (n % 2 == 0) count++;
                 }
             }
             return count;
