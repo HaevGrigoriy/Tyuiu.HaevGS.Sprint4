@@ -12,7 +12,7 @@ namespace Tyuiu.HaevGS.Sprint4.Task7.V1.Lib
             {
                 for (int j = 0; j < 3; j++)
                 {
-                    matrix[n, m] = int.Parse(value[n * 3 + m].ToString());
+                    matrix[i, j] = int.Parse(value[i * 3 + j].ToString());
                 
                 }
             }
